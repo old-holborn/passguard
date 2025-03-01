@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGuard</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">PassGuard</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <header id="top">
+        <img class="logo" src="img/logo.png" alt="logo.png">
+
+        <h1>PassGuard <small>(beta)</small></h1>
+        <p>The Safest Way</p>
+    </header>
+
+    <div class="slider-containter">
+        <div class="img-wrapper">
+            <img src="img/img_1.png" alt="After">
+        </div>
+        <div class="img-overlay" id="overlay">
+            <img src="img/img_2.png" alt="Before">
+        </div>
+        <div class="slider" id="slider"></div>
+    </div>
+
+    <center class="features">
+        <h1>PassGuard <span>Features</span></h1>
+
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Password Storage & Retrieval</td>
+                <td>Extracts and retrieves saved passwords from browsers securely.</td>
+            </tr>
+            <tr>
+                <td>Password Strength Analysis</td>
+                <td>Evaluates passwords and categorizes them as Weak, Medium, or Strong.</td>
+            </tr>
+            <tr>
+                <td>System Information Display</td>
+                <td>Shows device name, OS version, and public IP address.</td>
+            </tr>
+            <tr>
+                <td>Multi-Language Support</td>
+                <td>Supports English and Bulgarian translations for user interface.</td>
+            </tr>
+            <tr>
+                <td>User Interface & Interaction</td>
+                <td>Includes a responsive design, navigation bar, and slider comparison.</td>
+            </tr>
+            <tr>
+                <td>Security & Data Handling</td>
+                <td>Decrypts passwords locally without sending data externally.</td>
+            </tr>
+            <tr>
+                <td>Warning System</td>
+                <td>Displays a security warning upon application launch.</td>
+            </tr>
+        </table>
+    </center>
+
+    <div class="about" id="about">
+        <h1><span>About</span> PassGuard</h1>
+
+        <p>
+            PassGuard is a secure password manager that retrieves, analyzes, and displays saved passwords into your computer
+            while ensuring user privacy. It features password strength evaluation, bulgarian & english language support, and a
+            user-friendly interface for easy navigation. With built-in security measures, it decrypts passwords locally
+            without transmitting data externally, keeping your credentials safe.
+        </p>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 PassGuard. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="contact.html">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <script src="js/top.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>

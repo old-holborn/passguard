@@ -1,0 +1,198 @@
+@import url(navbar.css);
+@import url(slider.css);
+@import url(footer.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+::selection {
+    background-color: #ff58333b;
+    ;
+    cursor: default;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 5rem;
+}
+
+header>h1>small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header>h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+header>p {
+    letter-spacing: 18px;
+}
+
+span {
+    color: #ff5733;
+}
+
+center.features {
+    position: absolute;
+    top: 83rem;
+}
+
+center.features>h1 {
+    padding: 4rem 0;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+td>button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ff5733;
+    cursor: pointer;
+}
+
+th {
+    background: #ff5733;
+    color: #fff;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.about {
+    background-color: #ff58333b;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 119rem;
+    gap: 4rem;
+    padding: 6rem 4rem;
+}
+
+.about>h1 {
+    width: 29rem;
+    padding: 3rem 0;
+}
+
+.about>p {
+    width: 67rem;
+    line-height: 2rem;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 14px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ff5733;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 51px;
+    height: 51px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+#myBtn:hover {
+    opacity: 0.7;
+}
+
+center.contact {
+    position: absolute;
+    top: 83rem;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+form#contactForm {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+input, textarea {
+    border: 1px solid #c1c1c1;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 10px;
+    width: 100%;
+    margin: 4px 0;
+    resize: vertical;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus, textarea:focus {
+    border-color: #ff5733;
+}
+
+.radio-group {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 6px 0;
+    height: 21px;
+    justify-content: center;
+    text-align: center;
+    margin: 23px 0;
+}
+
+button[type=submit] {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    background: #ff5733;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+    border: 1px solid #ff5733;
+    box-shadow: none;
+}

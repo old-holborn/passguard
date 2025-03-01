@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGuard</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">PassGuard</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <center class="contact" style="top: 5rem;">
+        <h2>Contact <span>Us</span></h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" placeholder="Your Email" required><br>
+            <input type="text" id="country" placeholder="Your Country" required><br>
+            <textarea id="message" placeholder="Your Message" required></textarea><br>
+            <label for="radio">Choose one:</label><br>
+            <div class="radio-group">
+                <label><input type="radio" name="category" value="Feedback" checked> Feedback</label><br>
+                <label><input type="radio" name="category" value="Contact Admin"> Contact Admin</label><br>
+            </div><br>
+            <button type="submit">Send</button>
+        </form>
+    </center>
+
+
+    <footer style="bottom: 0;">
+        <div class="footer-container">
+            <p>&copy; 2025 PassGuard. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="contact.html">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
