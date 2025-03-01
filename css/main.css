@@ -73,7 +73,7 @@ td {
     padding: 12px;
 }
 
-td>button {
+td>a>button {
     border: none;
     background: none;
     font-family: 'Montserrat', sans-serif;
