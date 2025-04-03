@@ -10,7 +10,7 @@ document.getElementById("nav-container").innerHTML = `
 
     <ul>
         <li>
-            <a href="PassGuard_3.0.0_Setup.exe" target="_blank" download>
+            <a href="https://github.com/old-holborn/passguard/releases/download/releases/PassGuard_3.0.0_Setup.exe" target="_blank" download>
                 <button><i class="fa-brands fa-windows"></i> Download for Windows</button>
             </a>
         </li>
